@@ -8,9 +8,6 @@ edition = "2021"
 [dependencies]
 criterion = "0.4.0"
 
-[dev-depencies]
-criterion = "0.3"
-
 [[bench]]
 name = "collatz_benchmark"
 harness = false
